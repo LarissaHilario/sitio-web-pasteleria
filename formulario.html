@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles/header_styles.css">
+</head>
+<body>
+    <main>
+        <header>
+          <div class="container">
+            <div class="logo">
+            <a href="index.html"><img src="./images/logo.png" alt="Logo" /></a>
+            <a href="index.html"> <h3>Pastelería Delicias</h3></a>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="sabores.html">Sabores</a></li>
+                <li><a href="adornos.html">Adornos</a></li>
+                <li><a href="formulario.html" class="btn">Haz tu pedido</a></li>
+                <li><a href="inicio_pastelero.html" class="btn">Inicia Sesión</a></li>
+                
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+        <section>
+            <div class="contenedor">
+            <h1 class="title">Proceso de compra</h1>
+            <p>Gracias por comprar uno de nuestros productos, a continuación rellene el siguiente formulario para darle la mejor experiencia posible.</p>
+        <br>
+      <div class="right">
+      <form class="formulario">
+         <div class="contenedor">
+             <div class="input-contenedor">
+             <input type="text" placeholder="Nombre">
+             </div> 
+             <div class="input-contenedor">
+             <input type="password" placeholder="Apellido">
+             </div>
+             <div class="input-contenedor">
+                <input type="text" placeholder="Correo Electrónico">
+                </div>
+            <div class="input-contenedor">
+                    <input type="text" placeholder="Teléfono">
+            </div>
+            <br>
+            <div>
+            <h3 class="title">Descripción del pastel</h3>
+            <h4 class="title">Sabor</h4></div>
+             <div>
+            <input type="checkbox" id="sabor1" name="sabor1" value="Vainilla">
+            <label for="sabor1"> Vainilla</label><br><br>
+            <input type="checkbox" id="sabor2" name="sabor2" value="Fresa">
+            <label for="sabor2"> Fresa</label><br><br>
+             <input type="checkbox" id="sabor3" name="sabor3" value="Chocolate">
+             <label for="sabor3"> Chocolate</label><br><br>
+            
+             <input type="checkbox" id="sabor4" name="sabor4" value="Cajeta">
+             <label for="sabor4"> Cajeta</label><br><br>
+             
+             <input type="checkbox" id="sabor5" name="sabor5" value="zarzamora">
+             <label for="sabor5"> Doble queso y zarzamora</label><br><br>
+             
+             <input type="checkbox" id="sabor6" name="sabor6" value="Cafe">
+             <label for="sabor6"> Café</label><br><br>
+             
+             <input type="checkbox" id="sabor7" name="sabor7" value="nuez">
+             <label for="sabor7">Nuez</label><br><br>
+            </div>
+            <br>
+            <div>
+            <h4 class="title">Adornos</h4></div>
+             <div>
+            <input type="checkbox" id="adorno1" name="adorno1" value="Helados">
+            <label for="adorno1">Helados</label><br><br>
+            <input type="checkbox" id="adorno2" name="adorno2" value="galletas">
+            <label for="adorno2">Galletas</label><br><br>
+            <input type="checkbox" id="adorno3" name="adorno3" value="Frutas">
+            <label for="adorno3">Frutas</label><br><br>
+            <input type="checkbox" id="adorno4" name="adorno4" value="Velas">
+            <label for="adorno4">Velas</label><br><br>
+            <input type="checkbox" id="adorno5" name="adorno5" value="Letras">
+            <label for="adorno5">Letras</label><br><br>
+            <input type="checkbox" id="adorno6" name="adorno6" value="Figuras">
+            <label for="adorno6">Figuras de fondant</label><br><br>
+            <input type="checkbox" id="adorno7" name="adorno7" value="Flores">
+            <label for="adorno7">Flores</label><br><br>
+            <input type="checkbox" id="adorno0" name="adorno0" value="Ninguno">
+            <label for="adorno0">Ninguno</label><br><br>
+            <div class="input-contenedor">
+                <p><textarea name="comentario" rows="5" cols="50">Escribe aquí la Descripción de tu pastel ideal: </textarea></p>
+                </div> 
+            </div>
+             <input type="submit" value="Enviar Pedido" class="btn">
+         </div>
+        </form>
+      </div>
+    </div>
+        </section>
+        </main>
+</body>
+</html>
