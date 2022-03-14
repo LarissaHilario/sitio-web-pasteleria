@@ -1,2 +1,2 @@
 # sitio-web-pasteleria
-Sitio web para la pastelería Delicias. 
+Sitio web para  la pastelería Delicias. 
